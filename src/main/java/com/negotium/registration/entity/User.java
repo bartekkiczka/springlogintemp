@@ -13,7 +13,6 @@ public class User {
     private String login;
     @Column(unique=true)
     private String email;
-    //@NotNull
     private String password;
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "userID"), inverseJoinColumns = @JoinColumn(name = "roleID"))

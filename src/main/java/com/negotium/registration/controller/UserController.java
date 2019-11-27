@@ -2,7 +2,6 @@ package com.negotium.registration.controller;
 
 
 import com.negotium.registration.entity.User;
-import com.negotium.registration.dao.UserRepository;
 import com.negotium.registration.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
